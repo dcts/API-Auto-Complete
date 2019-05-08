@@ -1,4 +1,4 @@
-console.log("Hello");
+console.log("hi its the SPOTIFY api call script!")
 // Spotify cilent ID and Secret on Dashboard
 // https://developer.spotify.com/documentation/general/guides/authorization-guide/
 const clientID = "1e321e4cf1734fb88baf478fca5e6c4b";

@@ -5,21 +5,35 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Spotify API call</title>
+  <title>API calls with AJAX</title>
   <meta description="a game for entrepreneurs full of shit!">
   <!-- LINK CSS STYLESHEET -->
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-  <h1>Search Artist</h1>
+  <h1>CLIENTSIDE API CALLS</h1>
+
+  <h2>Spotify Search Artist</h2>
   <input type="text" placeholder="Enter a song...">
-  <ul id="song-list">
-
+  <ul id="spotify-results">
+    <li>placeholder</li>
+    <li>placeholder</li>
   </ul>
-  <script src="js/index.js"></script>
-  <!-- Including jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
+
+  <h2>Itunes Search Artist</h2>
+  <input type="text" placeholder="Enter a song...">
+  <ul id="itunes-results">
+    <li>placeholder</li>
+    <li>placeholder</li>
+  </ul>
+
+
+  <!-- IMPORT JAVASCRIPTS -->
+  <script src="js/spotifyAPI.js"></script>
+  <script src="js/itunesAPI.js"></script>
+  <!-- Including jQuery (DO WE NEED IT?) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 </body>
 </html>
